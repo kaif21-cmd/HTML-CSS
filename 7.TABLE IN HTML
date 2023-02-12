@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    table
+  </h1>
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+      </tr>
+    <tr>
+      <td>Google</td>
+       <td>Kaif shaikh</td>
+       <td>India</td>
+      </tr>
+    <tr>
+      <td>Microsoft</td>
+       <td>Sharukh Mirza</td>
+       <td>USA</td>
+      </tr>
+    <tr>
+      <td>Youtube</td>
+       <td>Zara Rizwan</td>
+       <td>UAE</td>
+      </tr>
+    <tr>
+      <td>Facebook</td>
+       <td>Kaif</td>
+       <td>UK</td>
+      </tr>
+        
+      
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------------------------------------------------------------------------------------
+CSS PART
+table,th,td{
+  border:2px solid black;
+}
