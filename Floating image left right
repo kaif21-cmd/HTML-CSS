@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1 style="color:red; text-align:center;">welcome to my site</h1>
+  
+  <p><img src="#"alt="" style="float:right; width:200px; height:150px;"></img>
+   Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........<br><hr>
+  </p>
+    <p><img src="#"alt="" style="float:left; width:200px; height:150px;"></img>
+   Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........  Here we can right left hand side of the website.........<br><hr>
+  </p>
+    
+  <script src="script.js"></script>
+</body>
+
+</html>
+
