@@ -1,0 +1,46 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+--><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    table
+  </h1>
+  <table style=" width:100%">
+    <Caption>Monthly Savings</caption>
+    <tr>
+    <th>Month</th>
+    <th>Saving</th>
+      </tr>
+    <tr>
+      <td>January</td>
+      <td>30000</td>
+      
+      </tr>
+    <tr>
+      <td>Ferbuary</td>
+      <td>50000</td>
+      
+      </tr>
+     
+    </table>
+     
+  <script src="script.js"></script>
+</body>
+
+</html>
+-------------
+css------
+table,th,td{
+  border:1px solid black;
+  border-color:#96d4d4;
+  text-align:center;
+}
