@@ -1,0 +1,92 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+--><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    table
+  </h1>
+  <table style=" width:100%">
+    <tr>
+    <th colaspan="2"> First Name</th>
+    <th>Last name</th>
+    <th>Age</th>
+      </tr>
+    <tr>
+      <td>Kaif</td>
+      <td>Shaikh</td>
+      <td>22</td>
+      </tr>
+    <tr>
+      <td>Zara</td>
+      <td>Rizwan</td>
+      <td>21</td>
+      </tr>
+     <tr>
+      <td>Sharukh</td>
+      <td>Mirza</td>
+      <td>23</td>
+      </tr>
+    </table>  
+      
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------AFTER COLSPAN---------------------
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+--><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    table
+  </h1>
+  <table style=" width:100%">
+    <tr>
+    <th colspan="2">Name+lastname</th>
+    <th>Age</th>
+      </tr>
+    <tr>
+      <td>Kaif</td>
+      <td>Shaikh</td>
+      <td>22</td>
+      </tr>
+    <tr>
+      <td>Zara</td>
+      <td>Rizwan</td>
+      <td>21</td>
+      </tr>
+     <tr>
+      <td>Sharukh</td>
+      <td>Mirza</td>
+      <td>23</td>
+      </tr>
+    </table> 
+  <script src="script.js"></script>
+</body>
+
+</html>
+----------
+CSS------------
+table,th,td{
+  border:1px solid black;
+  border-color:#96d4d4;
+  text-align:center;
+}
