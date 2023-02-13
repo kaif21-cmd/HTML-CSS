@@ -1,0 +1,65 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+--><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    table
+  </h1>
+  <table style="width:100%">
+    <tr>
+     <th >Name</th>
+      <th>Enroolment</th>
+      <th>Department</th>
+      <th style="width:40%">Email-id</th>
+    </tr>
+    <tr style="height:200px">
+      <td>Kaif Shaikh</td>
+      <td>2020-310-153</td>
+      <td>CSE</td>
+      <td>KaifShaikh262000@gmail.com</td>
+      </tr>
+     <tr>
+      <td>Zara Rizwan</td>
+      <td>2020-310-249</td>
+      <td>CSE</td>
+      <td>Rizwanzara81@gmail.com</td>
+      </tr>
+     <tr>
+      <td>Sharukh Mirza</td>
+      <td>2020-310-207</td>
+      <td>CSE</td>
+      <td>SharukhMirza21@gmail.com</td>
+      </tr>
+     <tr>
+      <td>Arham</td>
+      <td>2020-310-142</td>
+      <td>CSE</td>
+      <td>Arham31@gmail.com</td>
+      </tr>
+    </table>
+    
+    
+    
+      
+  <script src="script.js"></script>
+</body>
+
+</html>
+--------------
+CSS---------------------------
+table,th,td{
+    border:1px solid black;
+    border-color:#96d4d4;
+    text-align:center;
+}
+
+  
