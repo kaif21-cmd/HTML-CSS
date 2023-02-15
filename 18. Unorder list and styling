@@ -1,0 +1,48 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+   table
+  </h1>
+  <p>
+   <ul>
+     <li>Coffe</li>
+     <li>Tea</li>
+     <li>Milk</li>
+     <li>Biscuits</li>
+    </ul>
+     <ul style="list-style-type:circle;">
+     <li>Coffe</li>
+     <li>Tea</li>
+     <li>Milk</li>
+     <li>Biscuits</li>
+    </ul>
+    <ul style="list-style-type:square;">
+     <li>Coffe</li>
+     <li>Tea</li>
+     <li>Milk</li>
+     <li>Biscuits</li>
+    </ul>
+    <ul style="list-style-type:none;">
+     <li>Coffe</li>
+     <li>Tea</li>
+     <li>Milk</li>
+     <li>Biscuits</li>
+    </ul>
+   
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
