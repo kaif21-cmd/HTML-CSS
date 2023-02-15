@@ -1,0 +1,50 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+   Labour Book.com
+  </h1>
+  
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">about</a></li>
+    </ul>
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------------------
+css-------------------
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#333333;
+}
+li{
+  float:left;
+}
+li a{
+  display:block;
+  color:white;
+  text-align: center;
+  padding:16px;
+  text-decoration:none;
+}
+li a:hover{
+background-color:#111111
