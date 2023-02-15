@@ -1,0 +1,52 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+   table
+  </h1>
+  <p>
+   <table style="width:100%">
+     <tr>
+       <th>Company</th>
+       <th>Contact</th>
+       <th>country</th>
+       </tr>
+     <tr>
+       <td>Google</td>
+       <td>Kaif</td>
+       <td>India</td>
+       </tr>
+      <tr>
+       <td>Amazon</td>
+       <td>Zara Rizwan</td>
+       <td>USA</td>
+       </tr>
+      <tr>
+       <td>Chat gpt</td>
+       <td>Shahrukh Mirza</td>
+       <td>Canada</td>
+       </tr>
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
+----------------------
+css
+able,th,td{
+     border:1px solid black;
+     text-align:center;
+}
+tr:nth-child(even){
+background-color: #d6eeee;
