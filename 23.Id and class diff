@@ -1,0 +1,54 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    Difference between id and class</h1>
+    <p1 style="text-size:10px;">A class is used by multiple element while id name must be only used by one html elememts
+  </h1>
+  <h1 id="Myheader">My cities</h1>
+  <h2 class="city">Delhi</h2>
+  <h2 class="city">Kanpur</h2>
+  <h2 class="city">Mumbai</h2>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+---------------------
+css------------
+h1{
+  text-align:center;
+  
+}
+
+#Myheader {
+background-color:lightblue;
+color:black;
+padding:40px;
+text-align:center;
+text-align:center;
+}
+*{
+  box-sizing:border-box;
+}
+
+.city{
+  background-color:lightgreen;
+  text-align:center;
+  padding:25px;
+  height:200px;
+  border:3px solid grey;
+ 
+  
+  
