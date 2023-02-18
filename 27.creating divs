@@ -1,0 +1,55 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+<body>
+  <h1>Media queries</h1>
+  <p>...text...</p>
+  <div class="left">
+    <p>Left Menu</p>
+  </div>
+  <div class="Main">
+    <p>Main Content</p>
+  </div>
+  <div class="Right">
+    <p>Right Content</p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+---------------------
+css---------------
+*{
+  box-sizing:border-box;
+}
+.left{
+  background-color:#2196f3;
+  padding:20px;
+  float:left;
+  width:20%;
+}
+.Main{
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%
+  
+}
+.Right{
+  background-color:#04aa6d;
+  padding:20px;
+  float:left;
+  width:20%;
+}
+
+  
