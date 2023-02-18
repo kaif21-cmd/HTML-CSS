@@ -1,0 +1,79 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <header>Cites</header>
+  <section>
+    <nav>
+      <ul>
+      <li><a href="#">Delhi</a></li>
+      <li><a href="#">Mumbai</a></li>
+      <li><a href="#">Kolkata</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h1>Delhi</h1>
+      <p>Delhi is the capital of india </p>
+    </article>
+  </section>
+  <footer>
+    <p>kaif@copyright</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+--------------------------------------
+css
+-------
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family:arial,helvetica,sans-serif;
+}
+header{
+  background-color:#666;
+  padding:30px;
+  text-align:center;
+  font-size:40px;
+  color:white;
+  border: 3px solid black;
+}
+nav{
+  float:left;
+  width:30%;
+  height:300px;
+  background:#ccc;
+  padding:20px;
+}
+article{
+  float:left;
+  padding:20px;
+  width:70%;
+  background-color:#f1f1f1;
+  height:300px;
+}
+section::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+footer{
+  background-color:#777;
+  padding:10px;
+  text-align:center;
+  color:white;
+  font-size:20px;
+}
