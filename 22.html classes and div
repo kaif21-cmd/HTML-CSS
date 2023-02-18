@@ -1,0 +1,50 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  
+    <div class="city" style="color:black; text-align:center;">
+      <h2>Delhi</h2>
+      <p>Delhi is the capital of india</p>
+  </div>
+  <div class="city" style="color:black; text-align:center;">
+    <h2>Mumbai</h2>
+    <p>Mumbai is the capital of maharastra</p>
+    </div>
+   <div class="city" style="color:black; text-align:center">
+    <h2>Agra</h2>
+    <p>Agra is the capital UP</p>
+     </div>
+   <div class="city" style="color:black; text-align:center">
+    <h2>Bhopal</h2>
+    <p>Bohpal  is the capital of Mp</p>
+    
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------------------
+css-------
+*{
+  box-sizing:border-box;
+}
+
+.city{
+  background-color:grey;
+  color:white;
+  border:2px solid black;
+  float:left;
+  width:50%;
+  padding:10px
+  height:200px;
+}
