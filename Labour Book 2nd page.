@@ -1,0 +1,93 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    Booking Labour
+  </h1>
+  <div class="right">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img>
+    </p>
+    <p2 style="margin-left:20px">Mohd Kaif..</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+  </div>
+  <div class="left">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img></p>
+      <p2 style="margin-left:20px">Sharukh.Mirza.</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+      </div>
+      <div class="right">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img>
+    </p>
+    <p2 style="margin-left:20px">Mohd Kaif..</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+  </div>
+        <div class="left">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img></p>
+      <p2 style="margin-left:20px">Sharukh.Mirza.</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+      </div>
+           <div class="right">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img>
+    </p>
+    <p2 style="margin-left:20px">Mohd Kaif..</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+  </div>
+              <div class="left">
+    <p><img src="#"alt="" style="float:left;width:150px;height:150px;"></img></p>
+      <p2 style="margin-left:20px">Sharukh.Mirza.</p2><br><br>
+    <p3 style="margin-left:10px;">Expereince of 3yrs</p3><br>
+    <p4 style="margin-left:10px;">Call for Booking</p4><br><br>
+    <p5><a href="#" target="_blank">Call Me</a></p5>
+      </div>
+   
+  <script src="script.js"></script>
+</body>
+
+</html>
+------------------
+css--------------
+h1{
+padding:30px;
+background-color:grey;
+margin:0px;
+text-align:center;
+border:2px solid;
+}
+.right{
+ width:50%;
+ float:left;
+}
+a:link,a:visited{
+  background-color:lightgrey;
+  color:black;
+  margin-left:10px;
+  padding:10px 20px;
+  text-decoration:none;
+}
+
+.left{
+ width:50%;
+ float:left;
+}
+  
