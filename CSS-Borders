@@ -1,0 +1,118 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1 style="text-align:center">CSS-Borders</h1><hr></hr>
+    
+  <div class="Border">solid
+  </div>
+  <div class="Border2">dotted
+  </div>
+  <div class="Border3">dashed
+  </div>
+  <div class="Border4">groove
+  </div>
+  <div class="Border5">Inset
+  </div>
+   <div class="Border6">outset
+  </div>
+  <div class="Border7">ridge
+  </div>
+  <div class="Border8">double
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+------------
+css-----------
+*{
+  box-sizing:border-box;
+}
+.Border{
+ padding:10%;
+ width:20%;
+ background-color:lightgrey;
+ border-style:solid;
+ border-width:5px;
+ text-align:center;
+  float:left
+}
+.Border2{
+  margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:lightgreen;
+ border-style:dotted;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border3{
+  margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:red;
+ border-style:dashed;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border4{
+ margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:dodgerblue;
+ border-style:groove;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border5{
+ margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:lightgrey;
+ border-style:inset;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border6{
+ margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:lightgrey;
+ border-style:outset;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border7{
+ margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:lightgrey;
+ border-style:ridge;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
+.Border8{
+ margin-left:4px;
+ padding:10%;
+ width:20%;
+ background-color:lightgrey;
+ border-style:double;
+ border-width:5px;
+ text-align:center;
+ float:left;
+}
