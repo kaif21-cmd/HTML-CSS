@@ -1,0 +1,127 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1 style="text-align:center">
+    Learning CSS Colors..</h1>
+  <div class="color"> Tomato
+  </div>
+   <div class="color1">orange
+  </div>
+  <div class="color2">Dodgerblue
+  </div>
+  <div class="color3"> green
+  </div>
+   <div class="color4">gray
+  </div>
+  <div class="color5">slate Blue
+  </div>
+  <div class="color6">Light Gray
+  </div>
+  <div class="color7">Hot Pink
+  </div>
+  <div class="color8">black
+  </div>
+   <div class="color9">red
+  </div>
+   <hr>
+   <hr>
+   <script src="script.js"></script>
+</body>
+</html>
+CSS--------------------
+*{
+ box-sizing:border-box;
+}
+.color{
+  background-color:Tomato;
+  padding:20px;
+  width:20%;
+  float:left;
+  text-align:center;
+  border:3px solid
+}
+.color1{
+  background-color:orange;
+  padding:20px;
+  width:20%;
+  float:left;
+  text-align:center;
+  border:3px solid
+}
+.color2{
+  background-color:Dodgerblue;
+  padding:20px;
+  width:20%;
+  float:left;
+  text-align:center;
+  border:3px solid
+}
+.color3{
+  background-color:mediumseagreen;
+  padding:20px;
+  width:20%;
+  float:left;
+  text-align:center;
+  border:3px solid;
+}
+.color4{
+  background-color:gray;
+  padding:20px;
+  width:20%;
+  float:left;
+  text-align:center;
+  border:3px solid;
+}
+.color5{
+  background-color:slateblue;
+  padding:20px;
+  width:20%;
+  text-align:center;
+  border:3px solid;
+  float:left
+}
+.color6{
+  background-color:lightgray;
+  padding:20px;
+  width:20%;
+  text-align:center;
+  border:3px solid;
+  float:left;
+}
+.color7{
+  background-color:hotpink;
+  padding:20px;
+  width:20%;
+  text-align:center;
+  border:3px solid;
+  float:left;
+}
+.color8{
+  background-color:black;
+  padding:20px;
+  width:20%;
+  text-align:center;
+  border:3px solid black;
+  float:left;
+  color:white
+}
+.color9{
+  background-color:red;
+  padding:20px;
+  width:20%;
+  text-align:center;
+  border:3px solid;
+  float:left;
+}
+   
