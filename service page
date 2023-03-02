@@ -12,7 +12,15 @@ Online HTML, CSS and JavaScript editor to run code online.
 </head>
 
 <body>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">About</a><li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   <div class="container">
+    
     <h1 style="">Our Services</h1>
     <hr></hr>
     <div class="button1"><a href="#" style="text-decoration:none; color:black">Plumbers Near Me</a></div>
@@ -24,16 +32,16 @@ Online HTML, CSS and JavaScript editor to run code online.
     <div class="button1"><a href="#" style="text-decoration:none; color:black">Car/Bike Wash Near Me</a></div>
     <div class="button1"><a href="#" style="text-decoration:none; color:green"></a>Home Tutor Near me </div>
     <div class="button1"><a href="#" style="text-decoration:none; color:green"></a>Cloth Washer Near me </div><hr></hr>
-    <footer>Thanks For Visiting Us<br>@kaifshaikh</br><hr>[Email:-<a href="mailto:someone@gmail.com">kaifshaikh262000@gmail.com</a>|[Adress:-Jamia Hmadard University]|[Phone no:-9648338837]
-  
+    <footer>Thanks For Visiting Us<br>@kaifshaikh</br><hr></hr><a href="mailto:someone@gmail.com">kaifshaikh262000@gmail.com</a>|[Adress:-Jamia Hmadard University]|[Phone no:-9648338837]
+      </footer>
     
   </div>
   <script src="script.js"></script>
 </body>
 
 </html>
-------------
-css-------
+------------------------
+css
 *{
  box-sizing:border-box;
 }
@@ -57,7 +65,7 @@ h1{
  font-family:cursive;
  font-size:20px;
  border-radius:10px;
-  border:2px
+  border:2px;
 }
 footer{
 text-align:center;
@@ -66,6 +74,26 @@ font-size:18px;
 border-radius:10px;
 text-decoration:none;
 }
+ul{
+  font-size:25px;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#333333;
+}
+li{
+  float:left;
+}
+li a{
+  display:block;
+  color:white;
+  text-align: center;
+  padding:30px;
+  text-decoration:none;
+}
+li a:hover{
+background-color:#111111
 
   
 
