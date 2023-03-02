@@ -1,0 +1,71 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="">Our Services</h1>
+    <hr></hr>
+    <div class="button1"><a href="#" style="text-decoration:none; color:black">Plumbers Near Me</a></div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:black">Carpenters Near Me</a></div>
+     <div class="button1"><a href="#" style="text-decoration:none; color:black">Painters Near Me</a></div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:black">Electrician Near Me</a></div>
+     <div class="button1"><a href="#" style="text-decoration:none; color:black">Home Maker Near me</a></div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:black">Maid service Near Me</a></div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:black">Car/Bike Wash Near Me</a></div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:green"></a>Home Tutor Near me </div>
+    <div class="button1"><a href="#" style="text-decoration:none; color:green"></a>Cloth Washer Near me </div><hr></hr>
+    <footer>Thanks For Visiting Us<br>@kaifshaikh</br><hr>[Email:-<a href="mailto:someone@gmail.com">kaifshaikh262000@gmail.com</a>|[Adress:-Jamia Hmadard University]|[Phone no:-9648338837]
+  
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+------------
+css-------
+*{
+ box-sizing:border-box;
+}
+.container{
+  background-color:;
+  padding:20px;
+  float:left;
+  width:100%;
+  height:800px;
+  
+}
+h1{
+ text-align:center;
+}
+.button1{
+ text-align:center;
+  margin-top:5px;
+ padding:14px 25px;
+ background-color:lightgrey;
+ font-weight:bold;
+ font-family:cursive;
+ font-size:20px;
+ border-radius:10px;
+  border:2px
+}
+footer{
+text-align:center;
+padding:20px;
+font-size:18px;
+border-radius:10px;
+text-decoration:none;
+}
+
+  
+
