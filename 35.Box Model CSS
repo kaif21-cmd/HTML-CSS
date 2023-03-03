@@ -1,0 +1,29 @@
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div class="name">Kaif Shaikh siddique</div>
+  <div class="name">Kaif Shaikh siddique</div>
+   <div class="name">Kaif Shaikh siddique</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+css------------
+.name{
+  width:200px;
+  border:15px solid green;
+  padding:50px;
+  margin:20px;
+  text-align:center;
+  float:left;
+}
+
