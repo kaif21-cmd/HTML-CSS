@@ -43,18 +43,15 @@ Online HTML, CSS and JavaScript editor to run code online.
     <div class="profile2">
       <p1><img src="#"alt=""style="float:left;width:150px;height:150px;"</img></p1>
       <p2 style="margin-left:20px">Founders</p2><br><br>
-      <p2 style="margin-left:20px">Muzammil Raza</p2></div>
+      <p2 style="margin-left:20px">Muzamil Raza</p2></div>
       <div class="question">
-        <h3 style="font-size:30px;color:brown;">Question?</h3><br></br><p4>contact[Email] To get Information on The site. </p4>
-      <div class="button">Take action 
-      </div>
+        <h3>Services<br><br><quote style="color:brown;">  We Provided Professionaly Trained Workers Near You Like:-<br><br>Plumbers| Electrician| Carpenters| Painters|Bathroom Cleaner|Maid Service|Full Home Cleaning|Laptop/phone repairing|saloon at Home for Men/Women<br>Cloth Washer and other services</br> </br></br><p style="color:black;">Contact Us For More Details.</quote> </h3><br></br><p4>
         <hr></hr>
         <br></br>
-        <footer>[Labour Book]<br></br>Here You Can Hier Workers as Your Choice.<br></br>
-            [Adrees:-Jamia Hamdard University New Delhi] |[Phone:-9283672929]<br></br>
-            <a href="mailto:kaifshaikh26200@gmail.com"style="text-decoration:none;">kaifshaikh262000@gmail.com</a>
+        <footer>[Labour Book]<br></br>[Adrees:-Jamia Hamdard University New Delhi] |[Phone:-9283672929]<br></br>
+            <a href="mailto:kaifshaikh26200@gmail.com"style="text-decoration:none; color:white; border:3px solid black;padding:7px; background-color:brown">Mail contact Us</a>
         </footer>
-        <script src="script.js"></script>
+           <script src="script.js"></script>
   <script>
     hamburger = document.querySelector(".hamburger");
     hamburger.onclick = function() {
@@ -65,15 +62,12 @@ Online HTML, CSS and JavaScript editor to run code online.
   <script src="script.js"></script>
           
         
-  <script src="script.js"></script>
-  
-</body>
+  </body>
 
 </html>
   <script src="script.js"></script>
 </body>
--------------------
-css------------
+css--------
 *{
 margin:0;
  padding:0;
@@ -214,6 +208,5 @@ text-align:center;
   text-align:center;
 }
 
-  
   
   
