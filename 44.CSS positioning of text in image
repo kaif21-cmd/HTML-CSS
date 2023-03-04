@@ -1,0 +1,38 @@
+<!DOCTYPE html>                                                                                       
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+  <div class="container"><img src="#" width="300" height="300"></img>
+    <div class="topleft">Kaif siddique</div>
+  </div>
+<body>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+Css---------
+.container{
+  position:relative;
+}
+.topleft{
+  position:absolute;
+  top:8px;
+  right:20px;
+  font-size:18px;
+}
+img{
+  width:100%;
+}
+----------------------
+we can do....
+topleft
+topright
+bootomright
+centerd;
+}
