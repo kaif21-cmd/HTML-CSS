@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div class="container">CSS overflow condition is used when the content is to big and not fixed in the specified area so with help of thus we can hide or see or scroll over data in the particular div by using visible,hidden,scrool,auto property</div>
+  <br>
+  <div class="container1">CSS overflow condition is used when the content is to big and not fixed in the specified area so with help of thus we can hide or see or scroll over data in the particular div by using visible,hidden,scrool,auto property</div>
+    <br>
+  <div class="container2">CSS overflow condition is used when the content is to big and not fixed in the specified area so with help of thus we can hide or see or scroll over data in the particular div by using visible,hidden,scrool,auto property</div>
+      <br>
+  <div class="container3">CSS overflow condition is used when the content is to big and not fixed in the specified area so with help of thus we can hide or see or scroll over data in the particular div by using visible,hidden,scrool,auto property</div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------------------
+css------------------------------------------
+.container{
+ width:200px;
+ height:65px;
+ background-color:coral;
+ overflow:auto;
+}
+.container1{
+ width:200px;
+ height:65px;
+ background-color:coral;
+ overflow:scroll;
+}
+.container2{
+ width:200px;
+ height:65px;
+ background-color:coral;
+ overflow:hidden;
+}
+.container3{
+ width:200px;
+ height:65px;
+ background-color:coral;
+ overflow:visible;
+}
