@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"/>
+  <title>Browse</title>
+</head>
+  <div class="container">Kaif container having width 33.33%</div>
+  <div class="container2">Kaif container having width 33.33%</div>
+  <div class="container3">Kaif container having width 33.33%</div>
+   <div class="container4">Kaif container having width 100%</div>
+  
+
+<body>
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
+-----------------
+css---------
+*{
+  box-sizing:border-box;
+}
+.container{
+  float:left;
+  width:33.33%;
+  padding:50px;
+  background-color:lightblue;
+  text-align:center;
+}
+.container2{
+  float:left;
+  width:33.33%;
+  padding:50px;
+  background-color:lightblue;
+   text-align:center;
+}
+.container3{
+  float:left;
+  width:33.33%;
+  padding:50px;
+  background-color:lightblue;
+   text-align:center;
+}
+.container4{
+  float:left;
+  margin-top:10px;
+  width:100%;
+  padding:50px;
+  background-color:lightblue;
+  text-align:center;
+}
